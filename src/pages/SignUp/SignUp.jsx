@@ -26,7 +26,7 @@ const SignUp = () => {
 
       //3. Save username & profile photo
       await updateUserProfile(name, photoURL)
-      console.log(result)
+      // console.log(result)
 
       navigate('/')
       toast.success('Signup Successful')

@@ -1,0 +1,335 @@
+[
+    {
+        "_id": "642c155b2c4774f05c36eeaa",
+        "name": "Aloe Vera",
+        "category": "cactus",
+        "price": 100,
+        "quantity": 50,
+        "description": "Aloe Vera is a succulent plant famous for its soothing gel, often used in skin treatments. It thrives in arid climates and is easy to care for, making it a popular houseplant.",
+        "imgLink": "https://example.com/images/aloe-vera.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeab",
+        "name": "Echeveria",
+        "category": "cactus",
+        "price": 80,
+        "quantity": 30,
+        "description": "Echeveria is a popular genus of succulents known for their rosette-shaped leaves. They come in various colors and are commonly used in decorative arrangements due to their beautiful form.",
+        "imgLink": "https://example.com/images/echeveria.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeac",
+        "name": "Cactus Pear",
+        "category": "cactus",
+        "price": 120,
+        "quantity": 40,
+        "description": "Cactus Pear, also known as Prickly Pear, is a unique cactus that produces edible fruits. It is valued both for its ornamental beauty and its delicious, sweet fruits.",
+        "imgLink": "https://example.com/images/cactus-pear.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eead",
+        "name": "Golden Barrel Cactus",
+        "category": "cactus",
+        "price": 150,
+        "quantity": 20,
+        "description": "The Golden Barrel Cactus is a striking plant with a spherical shape and bright golden spines. It is a favorite among cactus enthusiasts for its distinct appearance and low maintenance needs.",
+        "imgLink": "https://example.com/images/golden-barrel-cactus.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeae",
+        "name": "Christmas Cactus",
+        "category": "cactus",
+        "price": 100,
+        "quantity": 25,
+        "description": "Christmas Cactus is a beloved holiday plant that blooms in vibrant pink or red around Christmas time. It is easy to care for and adds a festive touch to any home.",
+        "imgLink": "https://example.com/images/christmas-cactus.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeaf",
+        "name": "Bunny Ear Cactus",
+        "category": "cactus",
+        "price": 90,
+        "quantity": 35,
+        "description": "Bunny Ear Cactus is a charming plant with small, round pads that resemble rabbit ears. It is a low-maintenance plant that is perfect for beginners and adds a whimsical touch to any collection.",
+        "imgLink": "https://example.com/images/bunny-ear-cactus.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb0",
+        "name": "Hedgehog Cactus",
+        "category": "cactus",
+        "price": 110,
+        "quantity": 28,
+        "description": "Hedgehog Cactus is known for its dense spines and colorful flowers. It is a robust plant that can survive in harsh conditions, making it a great addition to any cactus garden.",
+        "imgLink": "https://example.com/images/hedgehog-cactus.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb1",
+        "name": "Moon Cactus",
+        "category": "cactus",
+        "price": 130,
+        "quantity": 22,
+        "description": "Moon Cactus is a grafted cactus with a vibrant, colorful top. It is a unique plant that is often used as a decorative piece due to its striking appearance.",
+        "imgLink": "https://example.com/images/moon-cactus.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb2",
+        "name": "Prickly Pear",
+        "category": "cactus",
+        "price": 120,
+        "quantity": 18,
+        "description": "Prickly Pear is a versatile cactus that produces edible pads and fruits. It is a hardy plant that can thrive in various environments, making it a popular choice for gardeners.",
+        "imgLink": "https://example.com/images/prickly-pear.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb3",
+        "name": "Star Cactus",
+        "category": "cactus",
+        "price": 140,
+        "quantity": 15,
+        "description": "Star Cactus is a spineless cactus with a unique star-shaped form. It is a rare and fascinating plant that is highly sought after by collectors for its distinctive look.",
+        "imgLink": "https://example.com/images/star-cactus.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb4",
+        "name": "Rose",
+        "category": "flower",
+        "price": 50,
+        "quantity": 60,
+        "description": "Roses are timeless symbols of love and beauty. With their fragrant blooms and diverse colors, they are a favorite in gardens and bouquets around the world.",
+        "imgLink": "https://example.com/images/rose.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb5",
+        "name": "Tulip",
+        "category": "flower",
+        "price": 60,
+        "quantity": 45,
+        "description": "Tulips are vibrant, spring-blooming flowers that come in a wide range of colors. They are a symbol of renewal and are often associated with the arrival of spring.",
+        "imgLink": "https://example.com/images/tulip.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb6",
+        "name": "Sunflower",
+        "category": "flower",
+        "price": 70,
+        "quantity": 40,
+        "description": "Sunflowers are known for their large, bright yellow blooms that follow the sun. They are a cheerful addition to any garden and are also valued for their edible seeds.",
+        "imgLink": "https://example.com/images/sunflower.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb7",
+        "name": "Lily",
+        "category": "flower",
+        "price": 60,
+        "quantity": 30,
+        "description": "Lilies are elegant flowers with large, fragrant blooms. They come in various colors and are often used in floral arrangements due to their striking beauty.",
+        "imgLink": "https://example.com/images/lily.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb8",
+        "name": "Daisy",
+        "category": "flower",
+        "price": 40,
+        "quantity": 50,
+        "description": "Daisies are simple yet charming flowers with white petals and a yellow center. They are often associated with innocence and purity and are a common sight in meadows and gardens.",
+        "imgLink": "https://example.com/images/daisy.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb9",
+        "name": "Orchid",
+        "category": "flower",
+        "price": 100,
+        "quantity": 25,
+        "description": "Orchids are exotic flowers known for their intricate blooms and vibrant colors. They are a favorite among collectors and are often seen as a symbol of luxury and beauty.",
+        "imgLink": "https://example.com/images/orchid.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeba",
+        "name": "Peony",
+        "category": "flower",
+        "price": 80,
+        "quantity": 35,
+        "description": "Peonies are lush flowers with large, fragrant blossoms. They are a staple in gardens and are often used in weddings and other special occasions due to their romantic appeal.",
+        "imgLink": "https://example.com/images/peony.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eebb",
+        "name": "Fiddle Leaf Fig",
+        "category": "indoor",
+        "price": 200,
+        "quantity": 10,
+        "description": "Fiddle Leaf Fig is a trendy indoor plant with large, glossy leaves. It is often used as a statement piece in interior decor due to its striking appearance and tall stature.",
+        "imgLink": "https://example.com/images/fiddle-leaf-fig.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eebc",
+        "name": "Monstera",
+        "category": "indoor",
+        "price": 180,
+        "quantity": 15,
+        "description": "Monstera is a tropical plant known for its large, split leaves. It is a popular choice for indoor spaces due to its exotic look and easy maintenance.",
+        "imgLink": "https://example.com/images/monstera.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eebd",
+        "name": "Peace Lily",
+        "category": "indoor",
+        "price": 120,
+        "quantity": 20,
+        "description": "Peace Lily is an elegant indoor plant with white flowers and glossy green leaves. It is known for its air-purifying qualities and is easy to care for, making it a popular choice for homes and offices.",
+        "imgLink": "https://example.com/images/peace-lily.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eebe",
+        "name": "Snake Plant",
+        "category": "indoor",
+        "price": 100,
+        "quantity": 25,
+        "description": "Snake Plant is a hardy indoor plant with long, upright leaves. It is known for its air-purifying properties and can thrive in low light conditions, making it perfect for any room.",
+        "imgLink": "https://example.com/images/snake-plant.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eebf",
+        "name": "Spider Plant",
+        "category": "indoor",
+        "price": 80,
+        "quantity": 30,
+        "description": "Spider Plant is a resilient indoor plant with long, thin leaves. It is known for its ability to thrive in various conditions and is often used in hanging baskets for its decorative appeal.",
+        "imgLink": "https://example.com/images/spider-plant.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec0",
+        "name": "ZZ Plant",
+        "category": "indoor",
+        "price": 150,
+        "quantity": 12,
+        "description": "ZZ Plant is a low-maintenance indoor plant with glossy, dark green leaves. It is known for its ability to thrive in low light and drought conditions, making it an ideal choice for busy individuals.",
+        "imgLink": "https://example.com/images/zz-plant.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec1",
+        "name": "Rubber Plant",
+        "category": "indoor",
+        "price": 140,
+        "quantity": 18,
+        "description": "Rubber Plant is an attractive indoor plant with thick, dark green leaves. It is easy to care for and adds a touch of greenery to any indoor space.",
+        "imgLink": "https://example.com/images/rubber-plant.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec2",
+        "name": "Pothos",
+        "category": "indoor",
+        "price": 90,
+        "quantity": 40,
+        "description": "Pothos is a vining plant with heart-shaped leaves. It is easy to grow and can be used in hanging baskets or as a climbing plant, making it a versatile addition to any home.",
+        "imgLink": "https://example.com/images/pothos.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec3",
+        "name": "Calathea",
+        "category": "indoor",
+        "price": 130,
+        "quantity": 16,
+        "description": "Calathea is a decorative indoor plant with unique, patterned leaves. It is a popular choice for adding a touch of elegance to any room and thrives in low light conditions.",
+        "imgLink": "https://example.com/images/calathea.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec4",
+        "name": "Dracaena",
+        "category": "indoor",
+        "price": 110,
+        "quantity": 22,
+        "description": "Dracaena is a tall indoor plant with narrow, upright leaves. It is known for its air-purifying properties and is a popular choice for adding height to indoor plant arrangements.",
+        "imgLink": "https://example.com/images/dracaena.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeaa",
+        "name": "Jade Plant",
+        "category": "indoor",
+        "price": 100,
+        "quantity": 28,
+        "description": "The Jade Plant, also known as Crassula ovata, is a popular succulent with thick, glossy, jade-green leaves. It's known for its easy care and is often kept as a houseplant. It symbolizes prosperity and good luck, making it a common gift for new businesses or homes.",
+        "imgLink": "https://example.com/images/jade-plant.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eebb",
+        "name": "Boston Fern",
+        "category": "indoor",
+        "price": 120,
+        "quantity": 14,
+        "description": "The Boston Fern, scientifically known as Nephrolepis exaltata, is a lush, evergreen plant with arching, feathery fronds. It's perfect for adding a touch of greenery to any indoor space and is known for its air-purifying qualities.",
+        "imgLink": "https://example.com/images/boston-fern.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eecc",
+        "name": "Hoya",
+        "category": "indoor",
+        "price": 160,
+        "quantity": 19,
+        "description": "Hoya, commonly known as Wax Plant, is a stunning indoor plant with thick, waxy leaves and sweetly scented flowers. It's a low-maintenance plant that thrives in bright, indirect light and adds a touch of elegance to any room.",
+        "imgLink": "https://example.com/images/hoya.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eedd",
+        "name": "English Ivy",
+        "category": "indoor",
+        "price": 70,
+        "quantity": 35,
+        "description": "English Ivy (Hedera helix) is a versatile climbing plant with small, evergreen leaves. It's often used as ground cover or to decorate walls and fences. This hardy plant is easy to grow and adds a classic touch to any garden or indoor setting.",
+        "imgLink": "https://example.com/images/english-ivy.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeff",
+        "name": "Hanging Pothos",
+        "category": "upside",
+        "price": 100,
+        "quantity": 20,
+        "description": "Hanging Pothos, or Epipremnum aureum, is a popular trailing plant with long vines and heart-shaped leaves. It's easy to care for and can thrive in various lighting conditions, making it a favorite for both novice and experienced gardeners.",
+        "imgLink": "https://example.com/images/hanging-pothos.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36ef11",
+        "name": "Boston Fern (Hanging)",
+        "category": "upside",
+        "price": 120,
+        "quantity": 15,
+        "description": "The hanging variety of the Boston Fern is ideal for adding greenery to high places. Its feathery fronds cascade down, creating a beautiful display that can enhance any indoor or outdoor space.",
+        "imgLink": "https://example.com/images/hanging-boston-fern.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36ef22",
+        "name": "String of Pearls",
+        "category": "upside",
+        "price": 140,
+        "quantity": 10,
+        "description": "The String of Pearls (Senecio rowleyanus) is a unique, eye-catching succulent with bead-like leaves that trail elegantly from its pot. It's a great choice for hanging planters and requires minimal maintenance.",
+        "imgLink": "https://example.com/images/string-of-pearls.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36ef33",
+        "name": "Spider Plant (Hanging)",
+        "category": "upside",
+        "price": 90,
+        "quantity": 18,
+        "description": "The Spider Plant (Chlorophytum comosum) is a popular houseplant known for its arching leaves and tiny offshoots, often referred to as 'spiderettes'. It's easy to grow and helps purify indoor air.",
+        "imgLink": "https://example.com/images/hanging-spider-plant.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36ef44",
+        "name": "Chain of Hearts",
+        "category": "upside",
+        "price": 130,
+        "quantity": 12,
+        "description": "The Chain of Hearts (Ceropegia woodii) is a delightful trailing plant with delicate, heart-shaped leaves. It's perfect for hanging baskets and adds a whimsical charm to any space.",
+        "imgLink": "https://example.com/images/chain-of-hearts.jpg"
+    },
+    {
+        "_id": "642c155b2c4774f05c36ef55",
+        "name": "Trailing Jade",
+        "category": "upside",
+        "price": 110,
+        "quantity": 14,
+        "description": "Trailing Jade (Kleinia petraea) is a beautiful hanging succulent with trailing stems and fleshy, green leaves. It's an excellent choice for adding a touch of greenery to any vertical space.",
+        "imgLink": "https://example.com/images/trailing-jade.jpg"
+    }
+]
