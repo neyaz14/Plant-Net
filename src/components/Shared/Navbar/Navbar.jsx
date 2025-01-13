@@ -113,7 +113,9 @@ const Navbar = () => {
               {isDropdownOpen && (
                 <div className="absolute left-0 mt-2 w-40 bg-white text-black rounded shadow-md">
                   <Link to="/indoor" className="block px-4 py-2 hover:bg-gray-200">Indoor</Link>
-                  <Link to="/outdoor" className="block px-4 py-2 hover:bg-gray-200">Outdoor</Link>
+                  <Link to="/outdoor" className="block px-4 py-2 hover:bg-gray-200">Cactus</Link>
+                  <Link to="/indoor" className="block px-4 py-2 hover:bg-gray-200">Flowral</Link>
+                  <Link to="/outdoor" className="block px-4 py-2 hover:bg-gray-200">Hanging</Link>
                 </div>
               )}
             </div>
@@ -129,7 +131,7 @@ const Navbar = () => {
             <div className="relative">
               <div
                 onClick={() => setIsOpen(!isOpen)}
-                className="p-2 border border-neutral-200 rounded-full cursor-pointer hover:shadow-md transition"
+                className="p-2 border border-neutral-200 rounded-3xl flex items-center cursor-pointer hover:shadow-md transition"
               >
                 <AiOutlineMenu />
                 <img
@@ -140,12 +142,12 @@ const Navbar = () => {
                 />
               </div>
               {isOpen && (
-                <div className="absolute rounded-xl shadow-md w-40 bg-white overflow-hidden right-0 top-12 text-sm">
+                <div className="absolute rounded-xl shadow-md w-40 bg-[#18231c] overflow-hidden right-0 top-13 text-sm">
                   <div className="flex flex-col cursor-pointer">
                     {user ? (
                       <>
-                        <Link to="/dashboard" className="px-4 py-3 hover:bg-gray-200">Dashboard</Link>
-                        <div onClick={logOut} className="px-4 py-3 hover:bg-gray-200 cursor-pointer">Logout</div>
+                        <Link to="/dashboard" className="px-4 py-3 hover:bg-[#0a1910]">Dashboard</Link>
+                        <div onClick={logOut} className="px-4 py-3 hover:bg-[#0a1910] cursor-pointer">Logout</div>
                       </>
                     ) : (
                       <>

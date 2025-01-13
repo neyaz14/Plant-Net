@@ -4,7 +4,7 @@ import Banner from '../../components/Home/Banner/Banner'
 
 const Home = () => {
   return (
-    <div className='bg-[#1c3a22eb]'>
+    <div className=''>
       <Helmet>
         <title> PlantNet | Buy Your Desired Plant</title>
       </Helmet>
