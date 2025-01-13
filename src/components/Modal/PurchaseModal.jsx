@@ -7,8 +7,9 @@ import {
   DialogTitle,
 } from '@headlessui/react'
 import { Fragment } from 'react'
+import Button from '../Shared/Button/Button'
 
-const PurchaseModal = ({ closeModal, isOpen }) => {
+const PurchaseModal = ({ closeModal, isOpen, plant, refetch }) => {
   // Total Price Calculation
 
   return (
@@ -57,8 +58,26 @@ const PurchaseModal = ({ closeModal, isOpen }) => {
                 <div className='mt-2'>
                   <p className='text-sm text-gray-500'>Price: $ 120</p>
                 </div>
+                {/* Quantity input field */}
+                <div className='space-x-2 mt-2 text-sm'>
+                  <label htmlFor='quantity' className=' text-gray-600'>
+                    Quantity:
+                  </label>
+                  <input
+                    // value={totalQuantity}
+                    // onChange={e => handleQuantity(parseInt(e.target.value))}
+                    className=' p-2 text-gray-800 border border-lime-300 focus:outline-lime-500 rounded-md bg-white'
+                    name='quantity'
+                    id='quantity'
+                    type='number'
+                    placeholder='Available quantity'
+                    required
+                  />
+                </div>
                 <div className='mt-2'>
                   <p className='text-sm text-gray-500'>Available Quantity: 5</p>
+                  {/* quantity input field */}
+                  <Button label='Purchase'></Button>
                 </div>
               </DialogPanel>
             </TransitionChild>

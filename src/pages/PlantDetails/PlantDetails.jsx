@@ -8,7 +8,7 @@ import { useParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import LoadingSpinner from '../../components/Shared/LoadingSpinner'
 import useAxiosPublic from '../../hooks/useAxiosPublic'
-import axios from 'axios'
+// import axios from 'axios'
 
 const PlantDetails = () => {
   let [isOpen, setIsOpen] = useState(false);
@@ -19,8 +19,8 @@ const PlantDetails = () => {
     [], isLoading, refetch } = useQuery({
       queryKey: ['plant', id],
       queryFn: async () => {
-        const {data}= await axios(`http://localhost:9000/plants/${id}`)
-        // const { data } =await axiosPublic(`/plants/${id}`)
+        // const {data}= await axios(`http://localhost:9000/plants/${id}`)
+        const { data } =await axiosPublic(`/plants/${id}`)
         return data;
       }
     })
@@ -100,12 +100,16 @@ const PlantDetails = () => {
           <div className='flex justify-between'>
             <p className='font-bold text-3xl text-gray-500'>Price: BDT {price}</p>
             <div>
-              <Button label='Purchase' />
+              <Button onClick={()=>setIsOpen(true)} label='Purchase' />
             </div>
           </div>
           <hr className='my-6' />
 
-          <PurchaseModal closeModal={closeModal} isOpen={isOpen} />
+          <PurchaseModal 
+           plant={plant}
+           closeModal={closeModal}
+           isOpen={isOpen}
+           refetch={refetch} />
         </div>
       </div>
     </Container>
