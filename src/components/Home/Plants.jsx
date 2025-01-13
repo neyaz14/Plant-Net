@@ -5,6 +5,7 @@ import axios from 'axios'
 import LoadingSpinner from '../Shared/LoadingSpinner'
 const Plants = () => {
   const { data: plants, isLoading } = useQuery({
+    // ? querykey ?
     queryKey: ['plants'],
     queryFn: async () => {
       const { data } = await axios(`http://localhost:9000/plants`)

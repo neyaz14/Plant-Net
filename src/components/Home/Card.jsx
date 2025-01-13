@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
-
 const Card = ({ plant }) => {
   const { name, category, quantity, price, image, _id } = plant || {}
   return (
